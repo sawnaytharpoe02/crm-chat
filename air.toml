@@ -1,0 +1,5 @@
+[build]
+cmd = "go build -o ./tmp/main ./src"
+bin = "tmp/main"
+exclude_dir = ["node_modules", "tmp"]
+include_ext = ["go", "toml", "env"]
